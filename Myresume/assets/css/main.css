@@ -740,6 +740,20 @@ section,
   --nav-font: "Poppins", sans-serif;
 }
 
+/* Custom styles for the projects section */
+.custom-card {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.custom-img {
+  width: 2in;
+  height: 2in;
+  margin: 0 auto;
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
