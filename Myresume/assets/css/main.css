@@ -1164,3 +1164,49 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# contact Section
+--------------------------------------------------------------*/
+.contact-card {
+  background-color: black;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 183, 255, 0.7);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  min-height: 100%; /* Ensures both cards have equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #00b7ff;
+}
+
+.info-item h3 {
+  margin-top: 10px;
+  color: #00b7ff;
+}
+
+.info-item p a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+.info-item p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%;
+  }
+}
